@@ -9,6 +9,7 @@
             "github_link" : "https://github.com/nunju9a/a_random_quote_generator-v1",
             "image_urls" : ["/images/Landing1.png", "/images/Screenshot1.png", "/images/Screenshot1a.png"] 
         },
+        
         {
             "id" : 1,
             "project_name" : "List Pagination and Filtering",
