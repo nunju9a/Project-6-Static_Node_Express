@@ -1,8 +1,11 @@
-//////////////
-App.js
-/////////////
+/*********************************************
+Juan Nunez
+Treehouse FSJS Techdegree
+Project 6 - Static Node.js and Express Site 
+app.js
+*********************************************/
 
- 
+
 // ADDING VARIABLES TO REQUIRE EXPRESS AND DATA.JSON
 const express = require("express");
 const app = express();
@@ -24,7 +27,6 @@ app.get("/", (req, res) => {
   
 
 // SETTING 'ABOUT' ROUTE TO RENDER 'ABOUT' PAGE
-  
 app.get("/about", (req, res) => {
     res.render("about");
 });
@@ -34,9 +36,28 @@ app.get("/about", (req, res) => {
 app.get("/projects/:id", (req, res) => {
     const { id } = req.params;
     const project = projects[id];
+    res.render("project", { project });
 });
+
 
 // STARTING SERVER, LISTENING ON PORT 3000
 app.listen(3000, () => {
     console.log("Listening to localhost:3000");
   });
+
+
+// SET ERROR STATUS TO 404 IF ROUTE NOT FOUND
+app.use((req, res, next) => {
+    const err = new Error("Not Found");
+    err.status = 404;
+    next(err);
+});
+  
+
+// RENDER ERROR PAGE WITH ERROR PASSED IN
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    console.log(`There is a ${err.status} error.`);
+    res.render("error");
+});
