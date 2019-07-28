@@ -35,3 +35,8 @@ app.get("/projects/:id", (req, res) => {
     const { id } = req.params;
     const project = projects[id];
 });
+
+// STARTING SERVER, LISTENING ON PORT 3000
+app.listen(3000, () => {
+    console.log("Listening to localhost:3000");
+  });
