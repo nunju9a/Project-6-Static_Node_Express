@@ -1,3 +1,52 @@
 {
+    "projects": [
+        {
+            "id" : 0,
+            "project_name" : "A Random Quote Generator",
+            "description" : "A page that displays random quotes from Star Wars movies. User can click a button to generate new quote, and quote will automatically refresh every 10 seconds",
+            "technologies" : ["HTML", "CSS", "Javascript"],
+            "live_link" : "https://nunju9a.github.io/a_random_quote_generator-v1/",
+            "github_link" : "https://github.com/nunju9a/a_random_quote_generator-v1",
+            "image_urls" : ["/images/Landing1.png", "/images/Screenshot1.png", "/images/Screenshot1a.png"] 
+        },
+        {
+            "id" : 1,
+            "project_name" : "List Pagination and Filtering",
+            "description" : "A page that filters list of students and provides pagination links. Each page displays at most 10 students, and includes a search feature to filter the students by name or email",
+            "technologies" : ["HTML", "CSS", "Javascript"],
+            "live_link" : "https://github.com/nunju9a/Techdegree-Project2",
+            "github_link" : "https://nunju9a.github.io/Techdegree-Project2/",
+            "image_urls" : ["/images/Landing2.png", "/images/Screenshot2.png", "/images/Screenshot2a.png"] 
+        },
 
+        {
+            "id" : 2,
+            "project_name" : "Interactive Form",
+            "description" : "A form page for a fictional conference. User enters information to sign up for the event. Form provides validation for separate fields, and interactivity that responds to user's actions",
+            "technologies" : ["HTML", "CSS", "Javascrript", "jQuery"],
+            "live_link" : "https://nunju9a.github.io/Treehouse-Project-3/",
+            "github_link" : "https://github.com/nunju9a/Treehouse-Project-3",
+            "image_urls" : ["/images/Landing3.png", "/images/Screenshot3.png", "/images/Screenshot3a.png"] 
+        },
+
+        {
+            "id" : 3,
+            "project_name" : "OOP Game Show App",
+            "description" : "A Star Wars themed phrase hunter game, using object oriented programming. A random hidden phrase is generated, and user guesses letters with onscren/physical keyboard. If user guesses correct letter, it is shown; guess incorrectly and lose a life. User receives different overlay screens based on whether they win or lose.",
+            "technologies" : ["HTML", "CSS", "Javascript","jQuery", "OOP"],
+            "live_link" : "https://nunju9a.github.io/Treehouse-Project-4/",
+            "github_link" : "https://github.com/nunju9a/Treehouse-Project-4",
+            "image_urls" : ["/images/Landing4.png", "/images/Screenshot4.png", "/images/Screenshot4a.png"] 
+        },
+
+        {
+            "id" : 4,
+            "project_name" : "Public API Requests",
+            "description" : "A fictional employee directory, using API request to generate new list of employees each time the page loads. API provided by https://randomuser.me/, requested 12 users from the United States. Clicking on an employee displays a modal window with more information about them. There is also a search feature to filter the retreived employees.",
+            "technologies" : ["HTML", "CSS", "Javascript", "AJAX"],
+            "live_link" : "https://nunju9a.github.io/Project-5_Public-API-Requests/",
+            "github_link" : "https://github.com/nunju9a/Project-5_Public-API-Requests",
+            "image_urls" : ["/images/Landing5.png", "/images/Screenshot5.png", "/images/Screenshot5a.png"]
+        }
+    ]
 }
