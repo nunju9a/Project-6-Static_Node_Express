@@ -7,7 +7,7 @@
             "technologies" : ["HTML", "CSS", "Javascript"],
             "live_link" : "https://nunju9a.github.io/a_random_quote_generator-v1/",
             "github_link" : "https://github.com/nunju9a/a_random_quote_generator-v1",
-            "image_urls" : ["/static/images/Landing1.PNG", "/static/images/Screenshot1.PNG", "/static/images/Screenshot1a.PNG"] 
+            "image_urls" : ["/static/images/Landing1.png", "/static/images/Screenshot1.png", "/static/images/Screenshot1a.png"] 
         },
         
         {
@@ -17,7 +17,7 @@
             "technologies" : ["HTML", "CSS", "Javascript"],
             "live_link" : "https://nunju9a.github.io/Techdegree-Project2/",
             "github_link": "https://github.com/nunju9a/Techdegree-Project2",
-            "image_urls" : ["/static/images/Landing2.PNG", "/static/images/Screenshot2.PNG", "/static/images/Screenshot2a.PNG"] 
+            "image_urls" : ["/static/images/Landing2.png", "/static/images/Screenshot2.png", "/static/images/Screenshot2a.png"] 
         },
 
         {
@@ -27,7 +27,7 @@
             "technologies" : ["HTML", "CSS", "Javascrript", "jQuery"],
             "live_link" : "https://nunju9a.github.io/Treehouse-Project-3/",
             "github_link" : "https://github.com/nunju9a/Treehouse-Project-3",
-            "image_urls" : ["/static/images/Landing3.PNG", "/static/images/Screenshot3.PNG", "/static/images/Screenshot3a.PNG"] 
+            "image_urls" : ["/static/images/Landing3.png", "/static/images/Screenshot3.png", "/static/images/Screenshot3a.png"] 
         },
 
         {
@@ -37,7 +37,7 @@
             "technologies" : ["HTML", "CSS", "Javascript","jQuery", "OOP"],
             "live_link" : "https://nunju9a.github.io/Treehouse-Project-4/",
             "github_link" : "https://github.com/nunju9a/Treehouse-Project-4",
-            "image_urls" : ["/static/images/Landing4.PNG", "/static/images/Screenshot4.PNG", "/static/images/Screenshot4a.PNG"] 
+            "image_urls" : ["/static/images/Landing4.png", "/static/images/Screenshot4.png", "/static/images/Screenshot4a.png"] 
         },
 
         {
@@ -47,7 +47,7 @@
             "technologies" : ["HTML", "CSS", "Javascript", "AJAX"],
             "live_link" : "https://nunju9a.github.io/Project-5_Public-API-Requests/",
             "github_link" : "https://github.com/nunju9a/Project-5_Public-API-Requests",
-            "image_urls" : ["/static/images/Landing5.PNG", "/static/images/Screenshot5.PNG", "/static/images/Screenshot5a.PNG"]
+            "image_urls" : ["/static/images/Landing5.png", "/static/images/Screenshot5.png", "/static/images/Screenshot5a.png"]
         }
     ]
 }
