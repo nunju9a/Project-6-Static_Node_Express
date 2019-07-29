@@ -12,11 +12,11 @@ const app = express();
 const path = require("path");
 const data = require("./data.json");
 const projects = data.projects;
-app.set("view engine", "pug");                                   // Setting view engine to pug
-app.set("views", path.join(__dirname, "views"));                // Setting views directory
 
 
 // SERVING THE STATIC FILES LOCATED IN THE PUBLIC FOLDER
+app.set("view engine", "pug");                                   // Setting view engine to pug
+app.set("views", path.join(__dirname, "views"));                // Setting views directory
 app.use("/static", express.static(path.join(__dirname, "public")));
 
 
@@ -39,7 +39,6 @@ app.get("/projects/:id", (req, res) => {
     res.render("project", { project });
 });
 
-
 // STARTING SERVER, LISTENING ON PORT 3000
 app.listen(3000, () => {
     console.log("Listening to localhost:3000");
@@ -59,5 +58,7 @@ app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
     console.log(`There is a ${err.status} error.`);
-    res.render("error");
+    //res.render("error");
 });
+
+
