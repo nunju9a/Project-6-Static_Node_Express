@@ -39,16 +39,12 @@ app.get("/projects/:id", (req, res) => {
     res.render("project", { project });
 });
 
-// STARTING SERVER, LISTENING ON PORT 3000
-app.listen(3000, () => {
-    console.log("Listening to localhost:3000");
-  });
-
 
 // SET ERROR STATUS TO 404 IF ROUTE NOT FOUND
 app.use((req, res, next) => {
     const err = new Error("Not Found");
     err.status = 404;
+    console.log("Oopsies, we can't find the page you are looking for!")
     next(err);
 });
   
@@ -58,7 +54,11 @@ app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
     console.log(`There is a ${err.status} error.`);
-    //res.render("error");
+    res.render("error");
 });
 
 
+// STARTING SERVER, LISTENING ON PORT 3000
+app.listen(3000, () => {
+    console.log("Listening to localhost:3000");
+  });
