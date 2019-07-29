@@ -1,4 +1,8 @@
 
+body{
+  background-color: red;
+}
+
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
@@ -19,7 +23,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: #666;
+    color:black;
   }
 
 .round{
@@ -35,6 +39,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button:hover{
+  transform: scale(1.10);
   background-color: #111;
 }
 
@@ -43,6 +48,7 @@ a{
 }
 
 a:hover{
+  transform: scale(1.10);
   color: #111;
 }
 
@@ -79,6 +85,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
+    transform: scale(1.10);
     color: #999;
   }
 
