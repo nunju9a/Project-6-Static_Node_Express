@@ -3,11 +3,11 @@
         {
             "id" : 0,
             "project_name" : "A Random Quote Generator",
-            "description" : "A page that displays random quotes from Star Wars movies. User can click a button to generate new quote, and quote will automatically refresh every 10 seconds",
-            "technologies" : ["HTML", "CSS", "Javascript"],
+            "description" : "Using basic JavaScript syntax and data structures, I created a page that displays random quotes from Star Wars movies. User can click a button to generate new quote, and quote will automatically refresh every 10 seconds",
+            "technologies" : ["HTML", "CSS", "Javascript - Basic Functions, Conditional Statements, Arrays"],
             "live_link" : "https://nunju9a.github.io/a_random_quote_generator-v1/",
             "github_link" : "https://github.com/nunju9a/a_random_quote_generator-v1",
-            "image_urls" : ["/static/images/Landing1.png", "/static/images/Screenshot1.png", "/static/images/Screenshot1a.png"] 
+            "image_urls" : ["/static/images/Landing1.PNG", "/static/images/Screenshot1.PNG", "/static/images/Screenshot1a.PNG"] 
         },
         
         {
@@ -17,27 +17,27 @@
             "technologies" : ["HTML", "CSS", "Javascript"],
             "live_link" : "https://nunju9a.github.io/Techdegree-Project2/",
             "github_link": "https://github.com/nunju9a/Techdegree-Project2",
-            "image_urls" : ["/static/images/Landing2.png", "/static/images/Screenshot2.png", "/static/images/Screenshot2a.png"] 
+            "image_urls" : ["/static/images/Landing2.PNG", "/static/images/Screenshot2.PNG", "/static/images/Screenshot2a.PNG"] 
         },
 
         {
             "id" : 2,
             "project_name" : "Interactive Form",
-            "description" : "A form page for a fictional conference. User enters information to sign up for the event. Form provides validation for separate fields, and interactivity that responds to user's actions",
+            "description" : "A form page for a fictional conference. User enters information to sign up for the event. Form provides validation for separate fields, and interactivity that responds to user's actions.  Built on jQuery basics, including hide/show methods and manipulating the dom.",
             "technologies" : ["HTML", "CSS", "Javascrript", "jQuery"],
             "live_link" : "https://nunju9a.github.io/Treehouse-Project-3/",
             "github_link" : "https://github.com/nunju9a/Treehouse-Project-3",
-            "image_urls" : ["/static/images/Landing3.png", "/static/images/Screenshot3.png", "/static/images/Screenshot3a.png"] 
+            "image_urls" : ["/static/images/Landing3.PNG", "/static/images/Screenshot3.PNG", "/static/images/Screenshot3a.PNG"] 
         },
 
         {
             "id" : 3,
             "project_name" : "OOP Game Show App",
             "description" : "A Star Wars themed phrase hunter game, using object oriented programming. A random hidden phrase is generated, and user guesses letters with onscren/physical keyboard. If user guesses correct letter, it is shown; guess incorrectly and lose a life. User receives different overlay screens based on whether they win or lose.",
-            "technologies" : ["HTML", "CSS", "Javascript","jQuery", "OOP"],
+            "technologies" : ["HTML", "CSS", "Javascript","jQuery", "OOP", "Classes and Constructors"],
             "live_link" : "https://nunju9a.github.io/Treehouse-Project-4/",
             "github_link" : "https://github.com/nunju9a/Treehouse-Project-4",
-            "image_urls" : ["/static/images/Landing4.png", "/static/images/Screenshot4.png", "/static/images/Screenshot4a.png"] 
+            "image_urls" : ["/static/images/Landing4.PNG", "/static/images/Screenshot4.PNG", "/static/images/Screenshot4a.PNG"] 
         },
 
         {
@@ -47,7 +47,7 @@
             "technologies" : ["HTML", "CSS", "Javascript", "AJAX"],
             "live_link" : "https://nunju9a.github.io/Project-5_Public-API-Requests/",
             "github_link" : "https://github.com/nunju9a/Project-5_Public-API-Requests",
-            "image_urls" : ["/static/images/Landing5.png", "/static/images/Screenshot5.png", "/static/images/Screenshot5a.png"]
+            "image_urls" : ["/static/images/Landing5.PNG", "/static/images/Screenshot5.PNG", "/static/images/Screenshot5a.PNG"]
         }
     ]
 }
