@@ -35,7 +35,7 @@ app.get("/about", (req, res) => {
 // SETTING 'PROJECTS' ROUTE TO RENDER 'PROJECTS' PAGE
 app.get("/projects/:id", (req, res) => {
     const { id } = req.params;
-    const project = projects[id];
+    const project = projects[id -1] ;
     res.render("project", { project });
 });
 

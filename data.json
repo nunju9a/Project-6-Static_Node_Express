@@ -1,9 +1,9 @@
 {
     "projects": [
         {
-            "id" : 0,
+            "id" : 1,
             "project_name" : "A Random Quote Generator",
-            "description" : "Using basic JavaScript syntax and data structures, I created a page that displays random quotes from Star Wars movies. User can click a button to generate new quote, and quote will automatically refresh every 10 seconds",
+            "description" : "This project practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator - a program that displays a randomly selected quote each time the user clicks a button. The page automatically refreshes every 10 seconds, while also displaying a random background color with each quote. Conditional statements are used to check if there are citation, year, and tag properties, then display them if they exist. The quotes have a Star Wars theme - May the force be with you!",
             "technologies" : ["HTML", "CSS", "Javascript - Basic Functions, Conditional Statements, Arrays"],
             "live_link" : "https://nunju9a.github.io/Project-1-Random_Quote_Generator/",
             "github_link" : "https://github.com/nunju9a/Project-1-Random_Quote_Generator",
@@ -11,9 +11,9 @@
         },
         
         {
-            "id" : 1,
+            "id" : 2,
             "project_name" : "List Pagination and Filtering",
-            "description" : "A page that filters list of students and provides pagination links. Each page displays at most 10 students, and includes a search feature to filter the students by name or email",
+            "description" : "This project takes a list of 54 students and condenses it to only show 10 students per page. Pagination links were dynamically created and appended to the DOM, as well as a functional search bar. The code is flexible enough to respond to lists of different lengths and paginate accordingly. Search feature returns matches, paginates results, and returns a 'no results' message if there are no matches.",
             "technologies" : ["HTML", "CSS", "Javascript"],
             "live_link" : "https://nunju9a.github.io/Project-2-List_Pagination_and_Filtering/",
             "github_link": "https://github.com/nunju9a/Project-2-List_Pagination_and_Filtering",
@@ -21,9 +21,9 @@
         },
 
         {
-            "id" : 2,
+            "id" : 3,
             "project_name" : "Interactive Form",
-            "description" : "A form page for a fictional conference. User enters information to sign up for the event. Form provides validation for separate fields, and interactivity that responds to user's actions.  Built on jQuery basics, including hide/show methods and manipulating the dom.",
+            "description" : "This project takes an html form and makes it interactive with javascript, relying heavily on jQuery. The form first loads focused on the Name field. If a user selects 'Other' from the Job Role, a new input field appears for them to type. Color options for the t-shirt are not shown until a specific design is chosen, and colors match each design. The user is not able to select activites that happen during the same time-frame, and a running tally of their total cost is shown. Users are given 3 payment options and only those details show when each option is selected. Regex is used for most validation. There is validation for the Name, Email, and Activities field. There is also validation for the credit card number, zip code, and cvv ONLY if the credit card payment method is selected.The form cannot be submitted until all fields are correctly filled out, and the user will get error messages if anything is not valid.",
             "technologies" : ["HTML", "CSS", "Javascrript", "jQuery"],
             "live_link" : "https://nunju9a.github.io/Project-3-Interactive_Form/",
             "github_link" : "https://github.com/nunju9a/Project-3-Interactive_Form",
@@ -31,9 +31,9 @@
         },
 
         {
-            "id" : 3,
+            "id" : 4,
             "project_name" : "OOP Game Show App",
-            "description" : "A Star Wars themed phrase hunter game, using object oriented programming. A random hidden phrase is generated, and user guesses letters with onscren/physical keyboard. If user guesses correct letter, it is shown; guess incorrectly and lose a life. User receives different overlay screens based on whether they win or lose.",
+            "description" : "Created a browser-based, word guessing game: 'Star Wars Hunter.' Using JavaScript and OOP (Object-Oriented Programming), it selects a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard. Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase (Star Wars character). If the letter is in the phrase, the gameboard displays the chosen letters on the screen. A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose).",
             "technologies" : ["HTML", "CSS", "Javascript","jQuery", "OOP", "Classes and Constructors"],
             "live_link" : "https://nunju9a.github.io/Project-4-OOP_Game-Show_App/",
             "github_link" : "https://github.com/nunju9a/Project-4-OOP_Game-Show_App",
@@ -41,9 +41,9 @@
         },
 
         {
-            "id" : 4,
+            "id" : 5,
             "project_name" : "Public API Requests",
-            "description" : "A fictional employee directory, using API request to generate new list of employees each time the page loads. API provided by https://randomuser.me/, requested 12 users from the United States. Clicking on an employee displays a modal window with more information about them. There is also a search feature to filter the retreived employees.",
+            "description" : "For this project, I built an app for a fictionalized Project Athena - a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. I used the Random User Generator API (https://randomuser.me/) to grab information for 30 random 'employees', and used that data to build a prototype for a Project Athena employee directory. I requested a JSON object from the API (using jQuery) and parsed the data so that 30 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address. Search feature and modal window toggle functionality also added.",
             "technologies" : ["HTML", "CSS", "Javascript", "AJAX"],
             "live_link" : "https://nunju9a.github.io/Project-5-Public_API_Requests/",
             "github_link" : "https://github.com/nunju9a/Project-5-Public_API_Requests",
